@@ -9,20 +9,8 @@ Başlıklar<br>
 * [Listeleme ve Tablo](#listeleme-ve-tablo)<br>
 * [Yazı Formatlama](#yazı-formatlama)<br>
 * [Alinti Yapma](#alinti-yapma)<br>
-* [](#)<br>
-* [](#)<br>
-* [](#)<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+* [Form Etiketi](#form-etiketi)<br>
+* [Karma Bilgiler](#karma-bilgiler)<br>
 
 ### H Etiketleri
 
@@ -115,10 +103,90 @@ standard dummy text ever since the 1500s, when an unknown printer took a galley 
 
 ### a Etiketi
 
+<div style="border-style: double; border-color: green">
+
 ```
 <a href="google.com">Google</a>
 ```
 <a href="google.com">Google</a>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+```
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+
+* _self - aynı pencerede açar
+* _blank - yeni sekmede açar
+* _parent - üst frame içinde açar
+* _top - tam ortada açar galiba
+
+</div>
+
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+```
+<h2>Absolute URLs</h2>
+<p><a href="https://www.w3.org/">W3C</a></p>
+<p><a href="https://www.google.com/">Google</a></p>
+
+<h2>Relative URLs</h2>
+<p><a href="html_images.asp">HTML Images</a></p>
+<p><a href="/css/default.asp">CSS Tutorial</a></p>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+```
+
+<a href="default.asp">
+<img src="smiley.gif" alt="HTML tutorial" style="width:42px;height:42px;">
+</a>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<a href="mailto:someone@example.com">Send email</a>
+```
+
+<a href="mailto:someone@example.com">Send email</a>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+```
+
+galiba bu title ve diğer şeyler ceo için baya etkilişymiş. resimdeki alt da böyle gibi
+
+<a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Visit our HTML Tutorial</a>
+
+</div>
+
+
 
 ### Img Etiketi
 
@@ -671,6 +739,523 @@ standard dummy text ever since the 1500s, when an unknown printer took a galley 
 
 <div style="border-style: double; border-color: green">
 
+```
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+```
+
+<p>Here is a quote from WWF's website:</p>
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 60 years, WWF has worked to help people and nature thrive. As the world's leading conservation organization, WWF works in nearly 100 countries. At every level, we collaborate with people around the world to develop and deliver innovative solutions that protect communities, wildlife, and the places in which they live.
+</blockquote>
+
 
 </div>
+
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+```
+<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+
+
+</div>
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+```
+
+<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+
+</div>
+
+
+
+
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+```
+
+<address>
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+</address>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+```
+
+<p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<bdo dir="rtl">This text will be written from right to left</bdo>
+```
+
+<bdo dir="rtl">This text will be written from right to left</bdo>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+
+```
+
+
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+
+```
+
+
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+
+```
+
+
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+
+```
+
+
+
+</div>
+
+
+
+
+
+<div style="border-style: double; border-color: green">
+
+```
+
+```
+
+
+
+</div>
+
+
+### Form Etiketi
+
+<div style="border-style: double; border-color: green">
+
+```
+<form>
+    <label>Ad</label>
+    <input type="text" name="ad" value="">
+    <label>Soyad</label>
+    <input type="text" name="soyad" value="">
+    <label>Telefon Numarası</label>
+    <input type="number" name="tel" value="">
+    <label>Email</label>
+    <input type="email" name="email" value="">
+    <label>Doğum Tarihi</label>
+    <input type="date" name="date" value="">
+    <input type="submit" value="Kaydet">
+</form>
+```
+
+<form>
+    <label>Ad</label>
+    <input type="text" name="ad" value="">
+    <label>Soyad</label>
+    <input type="text" name="soyad" value="">
+    <label>Telefon Numarası</label>
+    <input type="number" name="tel" value="">
+    <label>Email</label>
+    <input type="email" name="email" value="">
+    <label>Doğum Tarihi</label>
+    <input type="date" name="date" value="">
+    <input type="submit" value="Kaydet">
+</form>
+
+
+</div>
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<form>
+    <input type="radio" name="gender" value="Erkek">
+    <label>Erkek</label>
+    <input type="radio" name="gender" value="Kadın">
+    <label>Kadın</label>
+</form>
+```
+
+<form>
+    <input type="radio" name="gender" value="Erkek">
+    <label>Erkek</label>
+    <input type="radio" name="gender" value="Kadın">
+    <label>Kadın</label>
+</form>
+
+
+</div>
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<form>
+    <input type="checkbox" name="city1" value="Erkek">
+    <label>İstanbul</label>
+    <input type="checkbox" name="city2" value="Kadın">
+    <label>Ankara</label>
+</form>
+```
+
+<form>
+    <input type="checkbox" name="city1" value="Erkek">
+    <label>İstanbul</label>
+    <input type="checkbox" name="city2" value="Kadın">
+    <label>Ankara</label>
+</form>
+
+</div>
+
+
+### Karma Bilgiler
+
+<div style="border-style: double; border-color: green">
+
+```
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+```
+
+<mark>Belirttiğin yerlere özel tıklama gibi methodlar var</mark>
+
+<img src="https://picsum.photos/200" alt="Workplace" usemap="#workmap">
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+```
+
+<picture>
+  <source media="(min-width: 650px)" srcset="https://picsum.photos/200">
+  <source media="(min-width: 465px)" srcset="https://picsum.photos/200">
+  <img src="https://picsum.photos/200">
+</picture>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<iframe src="google.com" title="description"></iframe>
+```
+
+<iframe src="google.com" title="description"></iframe>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+```
+
+<p>Open from <time>10:00</time> to <time>21:00</time> every weekday.</p>
+
+<p>I have a date on <time datetime="2008-02-14 20:00">Valentines day</time>.</p>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+```
+
+<p>The area of a triangle is: 1/2 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the vertical height.</p>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+```
+
+<ruby>
+漢 <rt> ㄏㄢˋ </rt>
+</ruby>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+```
+
+<label for="file">Downloading progress:</label>
+<progress id="file" value="32" max="100"> 32% </progress>
+
+</div>
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+```
+
+<label for="cars">Choose a car:</label>
+
+<select id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="opel">Opel</option>
+  <option value="audi">Audi</option>
+</select>
+
+</div>
+
+
+<div style="border-style: double; border-color: green">
+
+```
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+```
+
+<label for="browser">Choose your browser from the list:</label>
+<input list="browsers" name="browser" id="browser">
+
+<datalist id="browsers">
+  <option value="Edge">
+  <option value="Firefox">
+  <option value="Chrome">
+  <option value="Opera">
+  <option value="Safari">
+</datalist>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<label for="cars">Choose a car:</label>
+<select id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+```
+
+<label for="cars">Choose a car:</label>
+<select id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form>
+```
+
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+  <input type="range" id="a" value="50">
+  +<input type="number" id="b" value="25">
+  =<output name="x" for="a b"></output>
+</form>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<label for="cars">Choose a car:</label>
+<select  name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+```
+
+<label for="cars">Choose a car:</label>
+<select  name="cars" id="cars">
+  <optgroup label="Swedish Cars">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+  </optgroup>
+  <optgroup label="German Cars">
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </optgroup>
+</select>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<object data="https://picsum.photos/200" width="300" height="200"></object>
+```
+
+<object data="https://picsum.photos/200" width="300" height="200"></object>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+```
+
+<script>
+document.write("Hello World!")
+</script>
+<noscript>Your browser does not support JavaScript!</noscript>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+```
+
+<p>Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy text (Windows).</p>
+
+<p>Press <kbd>Cmd</kbd> + <kbd>C</kbd> to copy text (Mac OS).</p>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<code> Hello world </code>
+<samp> Hello world </samp>
+```
+<code> Hello world </code> <br>
+<samp> Hello world </samp>
+
+</div>
+
+<div style="border-style: double; border-color: green">
+
+```
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+```
+
+<p>My favorite color is <del>blue</del> <ins>red</ins>!</p>
+
+</div>
+
+
 
