@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            background-color: blue;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation-name: backgoundChange;
+            animation-duration: 6s;
+        }
+
+        @keyframes backgoundChange {
+        from {
+            background-color: red;
+        }
+        to {
+            background-color: aquamarine;
+        }
+        }
+
+        .box2 {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: backgoundChange2;
+        animation-duration: 6s;
+        }
+
+        @keyframes backgoundChange2 {
+        0% {
+            transform: translateX(0);
+            background-color: red;
+        }
+        50% {
+            background-color: blue;
+            transform: translateX(1000px);
+        }
+        100% {
+            transform: translateX(300px);
+            background-color: aquamarine;
+        }
+        }
+
+        
+        .box3 {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        animation-name: backgoundChange3;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-delay: 2s;
+        animation-timing-function: ease-in-out;
+        }
+
+        @keyframes backgoundChange3 {
+        0% {
+            transform: translateX(0);
+            background-color: red;
+        }
+        50% {
+            background-color: blue;
+            transform: translateX(1000px);
+        }
+        100% {
+            transform: translateX(300px);
+            background-color: aquamarine;
+        }
+        }
+
+
+        .box4 {
+        width: 300px;
+        height: 300px;
+        background-color: blue;
+        color: white;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* animation-name: backgoundChange4;
+        animation-duration: 4s;
+        animation-iteration-count: 2;
+        animation-delay: 2s;
+        animation-timing-function: ease-in-out; */
+        animation: 4s ease-in-out 2s backgoundChange4;
+        }
+
+        @keyframes backgoundChange4 {
+        0% {
+            transform: translateX(0);
+            background-color: red;
+        }
+        50% {
+            background-color: blue;
+            transform: translateX(1000px);
+        }
+        100% {
+            transform: translateX(300px);
+            background-color: aquamarine;
+        }
+        }
+
+
+        .box5 {
+        width: 200px;
+        height: 200px;
+        border: 6px solid white;
+        border-top-color: blue;
+        border-radius: 50%;
+        animation: 1s linear myAnimation5 infinite;
+        }
+
+        @keyframes myAnimation5 {
+        0% {
+            transform: rotate(0deg);
+        }
+
+        100% {
+            transform: rotate(360deg);
+        }
+        }
+
+        .loadingDiv span {
+        width: 20px;
+        height: 20px;
+        background-color: blue;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0 10px;
+        }
+
+        .loadingDiv span:nth-child(1) {
+        animation: 1s ease-in-out myAnimation6 infinite;
+        }
+
+        .loadingDiv span:nth-child(2) {
+        animation: 1s ease-in-out 0.333s myAnimation6 infinite;
+        }
+        .loadingDiv span:nth-child(3) {
+        animation: 1s ease-in-out 0.667s myAnimation6 infinite;
+        }
+
+        @keyframes myAnimation6 {
+        0% {
+            transform: translateY(0) scale(1);
+        }
+        50% {
+            transform: translateY(-20px) scale(1.3);
+        }
+        100% {
+            transform: translateY(0px) scale(1);
+        }
+        }
+
+
+
+
+
+    </style>
+
+
+</head>
+<body>
+
+    <div class="box">Animasyon</div>
+
+    <div class="box2">Animasyon</div>
+
+    <div class="box3">Animasyon</div>
+
+    <div class="box4">Animasyon</div>
+
+    <div class="box5">Animasyon</div>
+
+
+    <div class="loadingDiv">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    
+</body>
+</html>

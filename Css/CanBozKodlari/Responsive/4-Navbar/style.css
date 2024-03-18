@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+  background-color: lightblue;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 0px 20px;
+}
+.links {
+  display: flex;
+}
+
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  .navbar a {
+    margin: 0px 5px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .links {
+    flex-direction: column;
+  }
+  .navbar a {
+    margin: 10px;
+  }
+}

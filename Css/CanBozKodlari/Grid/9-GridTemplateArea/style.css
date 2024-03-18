@@ -1,0 +1,30 @@
+.box {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  height: 700px;
+  width: 700px;
+  margin: 200px auto;
+  background-color: black;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+  display: grid;
+  grid-template-areas:
+    'a a a'
+    'b c c'
+    'b c c';
+}
+
+.alignMe {
+  grid-area: a;
+}
+
+.second {
+  grid-area: b;
+}
+
+.third {
+  grid-area: c;
+}

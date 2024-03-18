@@ -1,0 +1,99 @@
+
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+}
+
+h1{
+    font-weight: 300;
+}
+
+.navbar .bar{
+    width: 36px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.links{
+    display: inline-block;
+}
+
+.links li{
+    display: inline-block;
+}
+/*arada li olmasada olurda ben koydum özellikle*/
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+
+a.active{
+    border-bottom: 1px solid black;
+}
+
+.card img{
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.card img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.card{
+    width: 49%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+
+
+.gallery{
+    padding: 15px;
+}
+
+header{
+    margin: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.why{
+    width: 50%;
+    margin: 100px 200px;
+     
+}
+
+.banner{
+    font-weight: 300;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.message{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.contact{
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+}

@@ -761,11 +761,11 @@ burada normalde üzerinegelince bir anda mavi olucaktı ama transition sebebi il
 
 <div style="border-style: double; border-color: green">
 
-### 
+### Flexbox
 
 ```
 
-<p style="">Hello World</p>
+bunu anlatmak zordu responsive gibi ve eşit bölmeli işlerde kullanılıyor gibi mozilla dan bakarsın
 
 ```
 
@@ -787,13 +787,26 @@ burada normalde üzerinegelince bir anda mavi olucaktı ama transition sebebi il
 
 <div style="border-style: double; border-color: green">
 
-### 
+### Media Query
 
 ```
 
-<p style="">Hello World</p>
+@media screen and (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
 
 ```
+
+eğer min genişlik 768 px ise arka plan mavi olur. 
+
+```
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+```
+
+html içinde yukarıdaki kod olmaz ise çalışmaz bunu unutma
+
 
 <hr style="color: green">
 

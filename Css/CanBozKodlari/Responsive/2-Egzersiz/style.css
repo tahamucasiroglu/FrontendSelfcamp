@@ -1,0 +1,31 @@
+h1 {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 1192px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-size: 12px;
+  }
+}
+/* 
+h1 {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1193px) {
+  h1 {
+    font-size: 30px;
+  }
+} */

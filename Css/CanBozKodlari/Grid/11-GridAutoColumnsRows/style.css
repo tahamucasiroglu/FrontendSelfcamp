@@ -1,0 +1,21 @@
+.box {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  width: 800px;
+  margin: 200px auto;
+  background-color: black;
+  box-shadow: 0 6px 20px rgb(0 0 0 / 0.2);
+  display: grid;
+  grid-template: repeat(2, 200px) / repeat(4, 200px);
+  grid-auto-flow: column;
+  /* grid-auto-rows: 200px; */
+  grid-auto-columns: 200px;
+}
+/* 
+.alignMe {
+  grid-row-start: 2;
+} */
