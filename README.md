@@ -12,7 +12,7 @@ README.md çıktıları VsCode için test ettim Github İçinde Html kodlarında
 
 
 
-javascript callback promise kısmını kodla tekrar et
+
 
 
 

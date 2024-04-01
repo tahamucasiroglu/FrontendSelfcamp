@@ -285,7 +285,7 @@ resolve başarılı ve reject başarısız olarak callback gibi aşağıyı çal
 then başarılıda catch ise hatalı durumda çalışır
 
 
-
+javascript callback promise kısmını kodla tekrar et
 
 
 
