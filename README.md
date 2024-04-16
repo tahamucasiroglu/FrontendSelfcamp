@@ -6,11 +6,11 @@ README.md çıktıları VsCode için test ettim Github İçinde Html kodlarında
 <br>
 <br>
 
-* [Html](#Html/README.md)
-* [Css](#Css/README.md)
-* [JS](#Javascript/README.md)
-* [TS](#Typescript/README.md)
-* [React](#React/README.md)
+* [Html](Html/README.md)
+* [Css](Css/README.md)
+* [JS](Javascript/README.md)
+* [TS](Typescript/README.md)
+* [React](React/README.md)
 
 
 
