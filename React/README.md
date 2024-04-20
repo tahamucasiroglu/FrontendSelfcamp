@@ -98,6 +98,8 @@ temelde sayfalar arası iletişimi kolaylaştırıyor gibi
 
 <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*0AYDE7NAxvRubqaXM_wOhA.png"> </img>
 
+[Kaynak](https://tsafaelmali.medium.com/react-context-api-nedir-nasıl-kullanılır-7000b530ebd0)
+
 
 resimdeki gibi kısaca dallar arasında haberleşme sağlar. Tam olarak şuan anlamadım bakılan eğitim karmaşık anlatıyor gibi geldi bana. Ayrı bakılacak
 
