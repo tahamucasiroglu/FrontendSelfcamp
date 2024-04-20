@@ -28,7 +28,7 @@ sonra `react` -> `javascript yada typescript` şeklinde ilerlersin.
 * bulma css kütüphanesi `npm install bulma`
 * `export default function Home()` şeklinde kısa olarak export tanımı oluyormuş.
 * galiba `< />` ile `<> </ >` arasında bir fark yok. ikiside oluyor. `<> </ >` ile araya ek özellikler alabilen var ama ihtiyaç ve `clean kod` için galiba 
-
+* `mui material icons` bunu iconlarda kullanabişlirsin. 
 
 
 <br>
