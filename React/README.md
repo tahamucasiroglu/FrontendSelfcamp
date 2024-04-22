@@ -29,6 +29,13 @@ sonra `react` -> `javascript yada typescript` şeklinde ilerlersin.
 * `export default function Home()` şeklinde kısa olarak export tanımı oluyormuş.
 * galiba `< />` ile `<> </ >` arasında bir fark yok. ikiside oluyor. `<> </ >` ile araya ek özellikler alabilen var ama ihtiyaç ve `clean kod` için galiba 
 * `mui material icons` bunu iconlarda kullanabişlirsin. 
+* `npm install formik --save` ile `formik` kurulur amacı formları yönetimini kolaylaştırmak
+* `npm install react-router-dom@latest` react router dom kurma
+* formik schemas içinde `yup` kullanımı var. .net'deki `validator` işini yapmakta. `npm i yup` ile kurulur
+
+
+
+
 
 
 <br>
