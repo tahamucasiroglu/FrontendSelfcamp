@@ -32,7 +32,7 @@ sonra `react` -> `javascript yada typescript` şeklinde ilerlersin.
 * `npm install formik --save` ile `formik` kurulur amacı formları yönetimini kolaylaştırmak
 * `npm install react-router-dom@latest` react router dom kurma
 * formik schemas içinde `yup` kullanımı var. .net'deki `validator` işini yapmakta. `npm i yup` ile kurulur
-
+* MaterialUI kurmak için `npm install @mui/material @emotion/react @emotion/styled` yazılır
 
 
 
@@ -438,6 +438,85 @@ karmaşık ve bir sürü veri çekme işlemi olan yer için kullanılır. Örne�
 `lazy load` için `import` `const LazyAboutUs = React.lazy(() => import('./aboutUs')) ` şeklinde yapılır. 
 
 kullanırkende `<Route path='/aboutus' element={<AboutUs />} />` yerine `<Route path='/aboutus' element={<React.Suspense><LazyAboutUs /></React.Suspense> } />` şeklinde kullanırsın. Direkt kullandığında suspend hatası vermekte onun için `react.suspense` ile sardık.
+
+
+# Typescript
+
+
+```
+
+import React from 'react'
+
+type DataTipi ={
+    name: string
+}
+
+
+export default function Home(props:DataTipi) {
+  return (
+    <div>{props.name} hoşgeldin</div>
+  )
+}
+
+
+```
+
+
+şeklinde bir tema ile yazılımcılar, sayfa veya dosyalar arası iletişimde bile çok kolaylık sağlamaktadır. `typescript` şimdiden daha mantıklı geldi
+
+
+<br>
+
+genel olarak `typescript` adı üzerine tip belirtme dışında react içinde başka özelliği yok gibi. 
+
+```
+
+const handleChange = (event:ChangeEvent<HTMLInputElement>) => {
+    if(event.target.name === 'task'){
+      setTask(event.target.value)
+    }
+  }
+
+```
+
+`typescript` ile ilgili bazı püf noktalar var sadece. mesela yukarıdaki kabul tipi gibi bunları bilmek lazım onuda nereden toplu buluruz bilmiyorum galiba hatalar gördükçe yada projelerde ihtiyaç oldukça <br> event içi baya dolu yalnız mouse filanda oradan erişiliyor anladığım kadarıyla
+ 
+
+
+### React Material UI  (React -> MaterialUi - Giris içinde tamamı var)
+
+`npm install @mui/material @emotion/react @emotion/styled` ile kurulur. 
+
+<br>
+
+
+#### Typography
+
+```
+
+<Typography variant='body1'>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique commodi, ea natus ducimus magnam voluptatibus maiores autem deserunt unde quas veniam rem nemo, sed voluptas rerum laborum aperiam aliquid praesentium?
+</Typography>
+
+```
+
+`variant` kısmına `body1` `body2` gibi seçenekler konabiliyor yazı tipi değişmekte oto css
+
+<br>
+
+```
+<Typography variant='h1' component='h4'> başlık</Typography>
+```
+burada `variant` ile h1 olacak dedik fakat `component` ile sonradan h4 olacak dedik. Bu sayede h1 ile gelen düğer css özellikleri aynı kalmakta fakat sadece h1 özelliği h4 olarak değişmektedir. Yani margin filan aynı kalır.
+
+
+<br>
+
+
+kalanları düz izledim sıkıldım ve projelerde ihtiyaç oldukça kullanmak ile öğrenilecek böyle izleyerek değil kalanları hızlıcaq izledim.
+
+
+
 
 
 
