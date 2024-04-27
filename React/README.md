@@ -1,8 +1,22 @@
 react notları
 
+<hr>
+
+`bu koca facebook tarafından üretilen dilin neden importlarında önce fonksiyon adı sonra dosya adı söyleniyor. pythonda bu güzeldi. from ... import ... yada import ... derdin. Bunda import ... from ... nereden olduğuda belli olmadığından otomatik doldurmada çalışamıyor. from içinde gitmen lazım. Ne güzel dilde bu import'lar baya sinir bozucu`
+
 <br>
 
-react açılışı değişti
+`import BileşenAdı from './BileşenYolu';`
+
+<br>
+
+`import * as Bileşenler from './BileşenYolu';`
+
+<br>
+vardır koca koca adamların bildikleri 
+<hr>
+
+react açılışı değişti artık vite kullanılıyormuşş.
 
 <br>
 
@@ -514,6 +528,25 @@ burada `variant` ile h1 olacak dedik fakat `component` ile sonradan h4 olacak de
 
 
 kalanları düz izledim sıkıldım ve projelerde ihtiyaç oldukça kullanmak ile öğrenilecek böyle izleyerek değil kalanları hızlıcaq izledim.
+
+
+
+### Redux Toolkit
+
+
+`npx create-react-app courses` normalde npx create kaldırıldı diye biliyorum. O sebep ile hep `vite` ile kullandım fakat bunda yanlış anlamadıysam npm versiyonu hatası aldım o yüzden bende `npx create` kullandım. Sonrasında ise dosya içine gidip `npm install @reduxjs/toolkit react-redux` denem lazım
+
+`node versiyon` hatasını çözmek daha iyi proje baya eski hala `jsx` yerine `js` kullanmakta
+
+kodlar `genel` oalrak aynı kalacağı için şuan eskisinden devam edicem
+
+
+<br>
+
+eski kalması sıktı ihtiyaç zamanı bakarım izle izle darlandım uygulama yapmayı deneyeceğim inşallah
+
+
+
 
 
 
