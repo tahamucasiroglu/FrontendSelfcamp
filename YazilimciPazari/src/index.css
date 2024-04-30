@@ -1,0 +1,11 @@
+ 
+#root {
+    display: flex;
+    flex-direction: column; /* İçerikleri dikey yönlendir */
+    min-height: 100vh; /* Viewport'un tamamını kapla */
+}
+  
+.content-wrap {
+    flex: 1;  /* Tüm kullanılabilir alanı kapla, footer hariç */
+  }
+  
