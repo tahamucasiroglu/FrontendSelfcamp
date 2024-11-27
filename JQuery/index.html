@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="js/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et velit fugiat corporis veritatis natus beatae deleniti tenetur praesentium, sit voluptatibus alias dolor laborum quibusdam doloremque! Ut nam omnis eum enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et velit fugiat corporis veritatis natus beatae deleniti tenetur praesentium, sit voluptatibus alias dolor laborum quibusdam doloremque! Ut nam omnis eum enim.</p>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et velit fugiat corporis veritatis natus beatae deleniti tenetur praesentium, sit voluptatibus alias dolor laborum quibusdam doloremque! Ut nam omnis eum enim.</p>
+    <button id="buton1">tıkla1</button>
+    
+    <ul>
+        <li>eleman - 1</li>
+        <li>eleman - 2</li>
+        <li>eleman - 3</li>
+    </ul>
+
+    <br>
+    <br>
+
+    <p id="renkliyazi">Rengi değişecek yazı</p>
+
+    <button id="buton2">tıkla2</button>
+
+
+
+
+<script>
+    $("#buton1").click(function(){
+        $('p').hide();
+    });
+
+    $("#buton2").click(function(){
+        $('#renkliyazi').css({"color":"red", "background-color":"green"})
+    });
+
+    
+
+
+</script>
+
+</body>
+</html>
