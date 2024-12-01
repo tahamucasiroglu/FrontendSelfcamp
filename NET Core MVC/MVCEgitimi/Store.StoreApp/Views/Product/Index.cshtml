@@ -1,0 +1,19 @@
+﻿
+@model List<Store.StoreApp.Models.Product>
+
+    @section Footer{
+        <div>
+            sadece index sayfası footerı özelinde özelleştirme
+        </div>
+    }
+
+    @foreach(Store.StoreApp.Models.Product product in Model)
+    {
+        <partial name="_ProductCard" model="@product" />
+    }
+
+
+
+
+
+

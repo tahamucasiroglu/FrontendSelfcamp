@@ -1,12 +1,222 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\wwwroot\\html\\error.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\wwwroot\\html\\error.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\product\\get.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\product\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\product\\_productcard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|c:\\dosyalar\\kodlama\\frontendselfcamp\\net core mvc\\mvcegitimi\\store.storeapp\\models\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A861A3B9-382F-495A-8DA8-B5DD0CD13E58}|Store.StoreApp\\Store.StoreApp.csproj|solutionrelative:store.storeapp\\models\\repositorycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Error.html",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\wwwroot\\html\\Error.html",
+              "RelativeDocumentMoniker": "Store.StoreApp\\wwwroot\\html\\Error.html",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\wwwroot\\html\\Error.html*",
+              "RelativeToolTip": "Store.StoreApp\\wwwroot\\html\\Error.html*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-11-30T16:37:20.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Program.cs",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Program.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Program.cs*",
+              "RelativeToolTip": "Store.StoreApp\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T16:36:22.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ProductCard.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\Product\\_ProductCard.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T16:30:03.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Navbar.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Shared\\_Navbar.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\Shared\\_Navbar.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:37:50.545Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:28:51.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:21:14.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T15:12:58.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Get.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Product\\Get.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\Product\\Get.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Product\\Get.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\Product\\Get.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T09:47:31.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "Store.StoreApp\\Views\\Product\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-30T09:27:05.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\appsettings.json",
+              "RelativeDocumentMoniker": "Store.StoreApp\\appsettings.json",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\appsettings.json",
+              "RelativeToolTip": "Store.StoreApp\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-30T09:19:09.001Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Store.StoreApp\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:15:42.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "RepositoryContext.cs",
+              "DocumentMoniker": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Models\\RepositoryContext.cs",
+              "RelativeDocumentMoniker": "Store.StoreApp\\Models\\RepositoryContext.cs",
+              "ToolTip": "C:\\Dosyalar\\Kodlama\\FrontendSelfcamp\\NET Core MVC\\MVCEgitimi\\Store.StoreApp\\Models\\RepositoryContext.cs",
+              "RelativeToolTip": "Store.StoreApp\\Models\\RepositoryContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T09:05:48.208Z"
+            }
+          ]
+        }
+      ]
     }
   ]
 }
